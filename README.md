@@ -1,4 +1,6 @@
-# Olizilla Tap
+# olizilla Tap
+
+Easier installs via homebrew!
 
 ## How do I install these formulae?
 

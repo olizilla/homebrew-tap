@@ -17,7 +17,9 @@ jobs:
   test-bot:
     strategy:
       matrix:
-        os: [ macos-26 ]
+        # Bottles install on the macOS they're built on and newer: a Sequoia (15) bottle also
+        # serves Tahoe (26).
+        os: [ macos-15 ]
         include:
           - os: ubuntu-latest
             container:
