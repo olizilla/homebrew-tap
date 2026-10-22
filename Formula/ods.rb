@@ -1,8 +1,8 @@
 class Ods < Formula
   desc "Fetch, query, cite and reproduce NHS ODS data as verifiable Parquet"
   homepage "https://ods.fyi"
-  url "https://github.com/olizilla/ods/archive/refs/tags/v0.2.3.tar.gz"
-  sha256 "0bcf0834ecbc564918d64e3551f03212a710a2d2c147971a71d31a72ddf7dd25"
+  url "https://github.com/olizilla/ods/archive/refs/tags/v0.2.4.tar.gz"
+  sha256 "a38f6ade03c7de2080cc6d682d1ecc00124734ec1afcf63b40e0bd454ad68d89"
   license "MIT"
   head "https://github.com/olizilla/ods.git", branch: "main"
 
