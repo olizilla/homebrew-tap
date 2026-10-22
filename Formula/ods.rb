@@ -8,8 +8,8 @@ class Ods < Formula
 
   bottle do
     root_url "https://ghcr.io/v2/olizilla/tap"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "1f898c3d65d9b46899d1f3c0990de51bbcfe9075d848673a93583d15d78028ad"
-    sha256 cellar: :any,                 x86_64_linux:  "b1fbe298a2ff3e40eb0e55be06f99879ed46af7befc246d5d597e0b97311b92b"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "b732a135ee43cd0e60d786ff5c6bc93c83074144fb89dd8f7fbf1399e308470f"
+    sha256 cellar: :any,                 x86_64_linux:  "c982609978f28d9b91e84793600d9f72d8dafcdd3085caac1bf829ec0cafba2c"
   end
 
   depends_on "rust" => :build
